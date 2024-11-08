@@ -29,11 +29,3 @@
 
 4. **END PROCESS**
  + ./Framework/*CloseAllApplications* - Logs out and closes applications used throughout the process
-
-
-### For New Project ###
-
-1. Check the Config.xlsx file and add/customize any required fields and values
-2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
-3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
-4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
